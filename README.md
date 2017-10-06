@@ -127,7 +127,7 @@ t2t-decoder \
   --decode_hparams="beam_size=$BEAM_SIZE,alpha=$ALPHA" \
   --decode_from_file=$DECODE_FILE
 
-cat $DECODE_FILE.$MODEL.$HPARAMS.beam$BEAM_SIZE.alpha$ALPHA.decodes
+cat $DECODE_FILE.$MODEL.$HPARAMS.$PROBLEM.beam$BEAM_SIZE.alpha$ALPHA.decodes
 ```
 
 ---
